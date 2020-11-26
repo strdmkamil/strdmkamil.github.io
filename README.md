@@ -1,3 +1,14 @@
+a href="tabele.html"><li>tabele</li></a>
+            <a href="akapity.html"><li>akapity</li></a>
+            <a href="obrazy.html"><li>obrazy</li></a>
+            <a href="tekst.html"><li>tekst</li></a>
+            <a href="formularze.html"><li >formularze</li></a>
+            <a href="linki.html"><li>linki</li></a>
+            <a href="css-color.html"><li>css-color</li></a>
+        <a href="css3-background.html"><li>css3-background</li></a>
+        <a href="css3-selectors.html"><li>css3-selectors</li></a>
+        <a href="css3-box.html"><li>modele formatowania</li></a>
+        <a href="css-style-atrybuty.html"><li>atrybuty style</li></a>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -18,12 +29,17 @@
  stron WWW</h1>
   <h2>Rozwiązania</h2>
   <ul>
-   <li>
-<a href="akapity.html">Akapity i listy</a>
-   </li>
-   <li>
-<a href="tekst.html">Tekst i hiperłącza</a>
-   </li>
+            <a href="tabele.html"><li>tabele</li></a>
+            <a href="akapity.html"><li>akapity</li></a>
+            <a href="obrazy.html"><li>obrazy</li></a>
+            <a href="tekst.html"><li>tekst</li></a>
+            <a href="formularze.html"><li >formularze</li></a>
+            <a href="linki.html"><li>linki</li></a>
+            <a href="css-color.html"><li>css-color</li></a>
+            <a href="css3-background.html"><li>css3-background</li></a>
+             <a href="css3-selectors.html"><li>css3-selectors</li></a>
+           <a href="css3-box.html"><li>modele formatowania</li></a>
+        <a href="css-style-atrybuty.html"><li>atrybuty style</li></a>
   </ul>
   <h2>Szablony</h2>
   <div>
@@ -34,8 +50,8 @@ Szablon strony 1
 Szablon strony 2
 </a>
 <a href="strdmkamil.github.io/szablony/szablonstrony3.html">
-Szablon strony 3
-</a>
-  </div>
+Szablon strony 2 
+ </a>  
+ </div>
 </body>
 </html>
