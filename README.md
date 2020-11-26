@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="naglowek">
-        O mnie 
+        
     </div>
     <div class="tlo">
         <p>Hej, mam na imię Kamil i ucze się w ZSE na profilu informatyk w klasie 2C</p>
