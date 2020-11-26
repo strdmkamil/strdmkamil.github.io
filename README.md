@@ -1,25 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <title>Portfolio</title>
-        <meta charset="utf-8"/>
-  <meta name="description" content="Portfolio"/>
-  <meta name="author" content="Kamil Stradomski"/>
-  <meta name="viewport" content="width=device-width"/>
-  <link rel="alternate icon" href="favicon.png" sizes="32x32" type="image/png">
-        <style>
-
-        </style>
-    </head>
-    <body>
-        <h1>O mnie</h1>
-        <h2>Nazywam się Kamil Stradomski i jestem uczeniem II klasy o profilu informatycznym.</h2> 
-        <h1>Moje Prace</h1>
-         <li>
-        <a href="html.html">Edycja HTML</a> <br>
-              </li>
-              <li>
-        <a href="css.html">Formatowanie CSS</a>
-             </li>
-    </body>
+<head>
+<title> Moja Strona Internetowa </title>
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8"/>
+ <link rel="stylesheet" href="styl.css">
+  <style>
+    {color:red;}
+  </style>
+</head>
+<body>
+ <div style="background: silver;">
+  <h2> Kamil Stradomski</h2>
+ </div>
+ <hr/>
+ <h1>Ćwiczenia z edycji i formatowania<br/>
+ stron WWW</h1>
+  <h2>Rozwiązania</h2>
+  <ul>
+   <li>
+<a href="akapity.html">Akapity i listy</a>
+   </li>
+   <li>
+<a href="tekst.html">Tekst i hiperłącza</a>
+   </li>
+  </ul>
+  <h2>Szablony</h2>
+  <div>
+<a href="strdmkamil.github.io/szablony/szablonstrony1.html">
+Szablon strony 1
+</a>
+<a href="strdmkamil.github.io/szablony/szablonstrony2.html">
+Szablon strony 2
+</a>
+<a href="strdmkamil.github.io/szablony/szablonstrony3.html">
+Szablon strony 3
+</a>
+  </div>
+</body>
 </html>
