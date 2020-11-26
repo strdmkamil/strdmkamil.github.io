@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Selektory CSS</title>
+  <meta charset="utf-8"/>
+  <style>
+  *{
+  color: olive;
+  }
+  h1{
+  color: red;
+  }
+  h2[title] {
+  color: silver;
+  }
+  .zielona{
+  color: rgb(0,255,0);
+  }
+  #niebieski {
+  color: rgb(0,0,255);
+  }
+  h5, h6 {
+  color: hsl(60,60%,60%);
+  }
+  a:link {
+  color: coral;
+  }
+  a:visited {
+  color: goldenrod;
+  }
+  a:hover {
+  color: magneta;
+  }
+  a:active {
+color: maroon;
+}
+h1::first-letter {
+opacity: 0.5;
+}
+p::first-line {
+opacity: 0.75;
+}
+p b {
+opacity: 0.25;
+}
+p>i {
+opacity: 0;
+}
+ </style>
+ </head>
+ <body>
+Domyślny kolor strony
+<p> Akapit.</p>
+<h1>Nagłówek h1.</h1>
+<h1>Nagłówek h1.</h1>
+<h2 title="test">Nagłówek h2.</h2>
+<h2 title="test">Nagłówek h2.</h2>
+<h2>Nagłówek h2.</h2>
+<h3 class="zielona">Nagłówek h3.</h3>
+<h3 class="zielona">Nagłówek h3.</h3>
+<h3>Nagłówek h3.</h3>
+<h4 id="niebieski">Nagłówek h4.</h4>
+<h4>Nagłówek h4.</h4>
+<h5>Nagłówek h5.</h5>
+<h6>Nagłówek h6.</h6>
+<a href="#">Hiperłącze</a>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+ elit. Proin nibh augue, suscipit a, scelerisque sed,
+ lacinia in, mi. Cras vel lorem. Etiam pellentesque
+ aliquet tellus.</p>
+ <p>Lorem <b>ipsum</b> dolor.</p>
+ <p>Lorem <b><i>i</i>psum</b> dolor <i>i</i>.</p>
+ </body>
+</html>

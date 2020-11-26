@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>Tabele</title>
+ </head>
+ <body>
+ <table  border="1">
+  <caption>Tabela przykładowa nr 1</caption>
+  <tr>
+   <th id="k1">nagłówek kol. 1</th><th>nagłówek kol. 2</th>
+  </tr>
+   <tr>
+   <td headers="k1">wiersz1 kolumna1</td><td>wiersz1 kolumna2</td>
+   </tr>
+   <tr>
+   <td headers="k1">wiersz2 kolumna1</td><td>wiersz2 kolumna2</td>
+  </tr>
+  </table>
+  <hr/>
+  <table border="1">
+   <caption>Tabela przykładowa nr 2</caption>
+   <tr><th colspan="2">nagłówek scalony</th></tr>
+   <tr>
+    <td>wiersz1 kolumna1</td><td>wiersz1 kolumna2</td>
+   </tr>
+   <tr>
+    <td>wiersz2 kolumna1</td><td>wiersz2 kolumna2</td>
+   </tr>
+  </table>
+  <hr/>
+  <table border="1">
+   <caption>Tabela przykładowa nr 3</caption>
+   <tr>
+    <th rowspan="2">boczek</th>
+    <td>wiersz1, kolumna2</td>
+   </tr>
+    <tr><td>wiersz2, kolumna2</td>
+   </tr>
+  </table>
+  <hr/>
+  <table border="1">
+   <caption>Tabela przykładowa nr 4</caption>
+   <colgroup>
+     <col style="background: green;" />
+     <col style="background: red;" span="2">
+    </colgroup>
+   <thead>
+    <tr><th colspan="3" scope="colgroup">A1</th></tr>
+   </thead>
+   <tfoot>
+    <tr><td colspan="3">A5</td></tr>
+   </tfoot>
+   <tbody style="color: silver;">
+    <tr><td>A2</td><td>B2</td><td>C2</td></tr>
+    <tr><td>A3</td><td>B3</td><td>C3</td></tr>
+    <tr><td>A4</td><td>B4</td><td>C4</td></tr>
+   </tbody>
+  </table>
+  <hr>
+   <table border="1">
+    <tr>
+     <td>
+      <table border="1">
+       <tr>
+        <td>pierwsza kolumna tekstu</td>
+        <td>druga kolumna tekstu</td>
+       </tr>
+      </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>
