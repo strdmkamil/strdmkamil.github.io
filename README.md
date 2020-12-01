@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<title> Moja Strona Internetowa </title>
+Moja Strona Internetowa
 <meta name="viewport" content="width=device-width">
 <meta charset="utf-8"/>
  <link rel="stylesheet" href="styl.css">
